@@ -11,7 +11,7 @@ class CalculatorTest {
         val a = 5
         val b = 5
         val calculator = Calculator()
-        val result = calculator.computeAddition(a, b)
+        val result = calculator.addition(a, b)
         assertEquals(result, 10)
     }
 
@@ -20,7 +20,7 @@ class CalculatorTest {
         val a = -5
         val b = -5
         val calculator = Calculator()
-        val result = calculator.computeAddition(a, b)
+        val result = calculator.addition(a, b)
         assertEquals(result, -10)
     }
 
@@ -29,7 +29,7 @@ class CalculatorTest {
         val a = 5
         val b = -3
         val calculator = Calculator()
-        val result = calculator.computeAddition(a, b)
+        val result = calculator.addition(a, b)
         assertEquals(result, 2)
     }
 
@@ -38,7 +38,7 @@ class CalculatorTest {
         val a = 5
         val b = -3
         val calculator = Calculator()
-        val result = calculator.computeAddition(a, b)
+        val result = calculator.addition(a, b)
         assertEquals(result, 2)
     }
 
@@ -48,7 +48,7 @@ class CalculatorTest {
         val a = 10
         val b = 5
         val calculator = Calculator()
-        val result = calculator.computedDivision(a, b)
+        val result = calculator.division(a, b)
         assertEquals(result, 2)
     }
 
@@ -57,7 +57,7 @@ class CalculatorTest {
         val a = -10
         val b = -5
         val calculator = Calculator()
-        val result = calculator.computedDivision(a, b)
+        val result = calculator.division(a, b)
         assertEquals(result, 2)
     }
 
@@ -66,7 +66,7 @@ class CalculatorTest {
         val a = 10
         val b = -5
         val calculator = Calculator()
-        val result = calculator.computedDivision(a, b)
+        val result = calculator.division(a, b)
         assertEquals(result, -2)
     }
 
@@ -75,7 +75,7 @@ class CalculatorTest {
         val a = 6
         val b = 5
         val calculator = Calculator()
-        val result = calculator.computedSubtraction(a, b)
+        val result = calculator.subtraction(a, b)
         assertEquals(result, 1)
     }
 
@@ -84,7 +84,7 @@ class CalculatorTest {
         val a = -6
         val b = -5
         val calculator = Calculator()
-        val result = calculator.computedSubtraction(a, b)
+        val result = calculator.subtraction(a, b)
         assertEquals(result, -1)
     }
 
@@ -93,7 +93,7 @@ class CalculatorTest {
         val a = -6
         val b = 5
         val calculator = Calculator()
-        val result = calculator.computedSubtraction(a, b)
+        val result = calculator.subtraction(a, b)
         assertEquals(result, -11)
     }
 
@@ -102,7 +102,7 @@ class CalculatorTest {
         val a = 5
         val b = 5
         val calculator = Calculator()
-        val result = calculator.computedMultiplication(a, b)
+        val result = calculator.multiplication(a, b)
         assertEquals(result, 25)
     }
 
@@ -111,7 +111,7 @@ class CalculatorTest {
         val a = -5
         val b = -5
         val calculator = Calculator()
-        val result = calculator.computedMultiplication(a, b)
+        val result = calculator.multiplication(a, b)
         assertEquals(result, 25)
     }
 
@@ -120,7 +120,7 @@ class CalculatorTest {
         val a = -5
         val b = 5
         val calculator = Calculator()
-        val result = calculator.computedMultiplication(a, b)
+        val result = calculator.multiplication(a, b)
         assertEquals(result, -25)
     }
 }

@@ -1,8 +1,8 @@
 package uz.ilkhomkhuja.unittestingexample.utils
 
 class Calculator {
-    fun computeAddition(a: Int, b: Int): Int = a + b
-    fun computedDivision(a: Int, b: Int): Int = a / b
-    fun computedSubtraction(a: Int, b: Int): Int = a - b
-    fun computedMultiplication(a: Int, b: Int): Int = a * b
+    fun addition(a: Int, b: Int): Int = a + b
+    fun division(a: Int, b: Int): Int = a / b
+    fun subtraction(a: Int, b: Int): Int = a - b
+    fun multiplication(a: Int, b: Int): Int = a * b
 }
